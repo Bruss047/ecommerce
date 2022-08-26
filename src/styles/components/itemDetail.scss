@@ -1,0 +1,25 @@
+
+
+.itemDetailContainer{
+    border-radius: 3px;
+    box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+    background-color: #455a64;
+    margin-top: 4%;
+    text-align: center;
+    padding: 10px;
+
+    .inneritemDetailContainer{
+        border-radius: 6px;
+         box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        background-color: rgb(225, 224, 224);
+        margin: auto;
+
+        .productDesc{
+            margin: auto;
+        }
+    }
+}

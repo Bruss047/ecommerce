@@ -1,0 +1,42 @@
+
+$base-color-prod: #cdd0d2;
+
+
+.itemContainerDiv{
+    text-align: center;
+    padding: 1%;
+   
+    .innerItemContainerDiv{
+        height: 100%;
+        width: 94%;
+        background-color: $base-color-prod;
+        border-radius: 6px;
+        box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.75);
+        padding: 1%;
+
+    }
+   
+
+}
+
+.itemProduct{
+
+    color: black;
+    text-decoration: none;  
+    &:hover {
+        color:red;
+        transition: all 0.2s ease;
+    }
+    .productName{
+        font-size: 1.6em;
+    }
+    .price{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
+
+

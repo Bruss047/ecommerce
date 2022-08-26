@@ -1,0 +1,23 @@
+.cartListContainer {
+    background-color: rgb(245, 41, 41);
+    border-radius: 8px;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.cart-item {
+    background-color: rgba(228, 194, 194, 0.301);
+    border-radius: 6px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.cartWidgetNum {
+    color: white;
+}

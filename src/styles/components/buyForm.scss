@@ -1,0 +1,30 @@
+
+
+.buyFormContainer{
+    align-items: center;
+    margin-top: 4%;
+
+    .subTotal{
+        color: white;
+        font-size: 1.3em;
+        
+    }
+
+    .btnComprarContainer{
+        text-align: center;
+        
+    }
+
+    .btnComprar{
+        border-radius: 6px;
+        background-color: #fdcb4c;
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 1%;
+       
+        &:hover{
+            color:red;
+            transition: all 0.4s ease;
+        }
+    }
+}

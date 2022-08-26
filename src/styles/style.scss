@@ -1,0 +1,108 @@
+@import './components/itemListContainer';
+@import './components/item';
+@import './components/buyForm';
+@import './components/cart';
+@import './components/navbar';
+@import './components/itemDetail';
+@import './components/footer';
+@import './components/cartItemList';
+
+$base-color: #fdcb4c;
+
+body {
+    font-size: 1.1rem;
+    font-family: 'Bebas Neue', cursive;
+    background-color: $base-color;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+.heroImage {
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.container_loading {
+    margin: auto;
+
+    .divLoading {
+        margin: auto;
+        margin-top: 10%;
+
+    }
+}
+
+.btnCustom {
+    background-color: #e53935;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+
+    &:hover {
+        color: yellow;
+        transition: all 0.4s ease;
+    }
+}
+
+.btnSeguirComprando {
+ 
+     background-color: #169e24;
+     border-radius: 5px;
+     color: white;
+     padding: 5px;
+     margin-top: 1.5%;
+     text-decoration: none;
+    
+    &:hover {
+         color: rgb(233, 35, 35);
+        transition: all 0.4s ease;
+    }
+
+
+
+}
+
+.btnAddOff {
+    background-color: #e53935;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0.5%;
+    height: 65%;
+    padding: 5px;
+
+    &:hover {
+        color: yellow;
+        transition: all 0.6s ease;
+    }
+
+}
+
+.textAlingCenter {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 1%;
+}
+
+.addProductButton {
+    background-color: #fdcb4c;
+    padding: 10px;
+    border-radius: 6px;
+
+    &:hover {
+        color: red;
+        font-weight: bold;
+        transition: all 0.4s ease;
+    }
+}
